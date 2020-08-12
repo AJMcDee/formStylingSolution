@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>El amigo Reservtion Form</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <img src="images/logo.png" alt="El amigo Pub + Grill logo" />
+      </header>
+      <section id="infobox">
+        <h2>The Best Craft Beer in Spain!</h2>
+        <p>
+          Bienvenido, amigos! We are a completely fictional location, but that
+          doesn't mean we can't imagine the best beer in Spain!
+        </p>
+      </section>
+      <main>
+        <h3>Make a Reservation</h3>
+        <p>Get your spot before somebody else does!</p>
+        <form action="get">
+          <label for="name">Your Name</label>
+          <input type="text" name="name" id="name" placeholder="Jenny B. Goode"/>
+          <label for="email">Your Email</label>
+          <input type="email" name="email" id="email" placeholder="Jenny@BGoode.com" />
+          <label for="">Reservation Time</label>
+          <input
+            type="datetime-local"
+            name="reservationtime"
+            id="reservationtime"
+          />
+          <button type="submit">Reserve Now</button>
+        </form>
+      </main>
+      <footer>
+        © 2018 El Amigo
+      </footer>
+    </div>
+  </body>
+</html>

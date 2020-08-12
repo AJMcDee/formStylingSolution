@@ -1,0 +1,104 @@
+/* Whole page structural settings */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: unset;
+}
+
+body {
+    background-color: black;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+
+    color: #333138;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 70%;
+}
+
+/* Header */
+
+header img {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Info box */
+
+#infobox {
+    background-image: url(images/transparent_white.png);
+    background-repeat: repeat;
+  
+    border: 8px solid black;
+    padding: 10px;
+
+    text-align: center;
+}
+
+#infobox * {
+    margin: 5px;
+
+}
+
+/* Form */
+
+main {
+    background-color: #E6E6E6;
+    width: 100%;
+
+    margin: 20px;
+    padding: 15px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+main > * {
+    margin: 10px;
+}
+
+main form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main form label {
+    background-color: #333138;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    line-height: 1rem;
+    font-weight: bold;
+
+    padding-left: 5px;
+}
+
+main form input {
+    line-height: 2rem;
+    margin-bottom: 5px;
+    font-style: italic;
+
+    padding-left: 5px;
+    border: none;
+}
+
+main form button {
+    background-color: #333138;
+    color: white;
+    font-style: italic;
+    line-height: 1.5rem;
+}
